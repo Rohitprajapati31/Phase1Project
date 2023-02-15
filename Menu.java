@@ -55,7 +55,7 @@ public class Menu
 						case 11:
 							// add a file
 							System.out.println("Enter the file name to add : ");
-							String fName1 = sc.nextLine();
+							String fName1 = sc.next();
 							try 
 							{ 
 								File addFile = new File(fName1);
